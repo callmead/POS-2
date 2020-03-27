@@ -1,0 +1,159 @@
+[Root]
+Most Recent Package=AdEeL
+
+
+[Package|AdEeL|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\NH\Setup
+
+[Package|AdEeL|Configure DAO ISAMs]
+Applicable=No
+
+[Package|AdEeL|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|AdEeL|Files Found]
+
+[Package|AdEeL|Files Released]
+CRAXDRT.DLL=
+
+[Package|AdEeL|Missing Dependency Information]
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|AdEeL|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\mscomct2.ocx=
+C:\WINDOWS\system32\msadodc.ocx=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|AdEeL|Files Added]
+h:\noori halal\duas.exe=
+h:\noori halal\labels.xls=
+h:\noori halal\db.mdb=
+
+[Package|AdEeL|Files Removed]
+c:\program files\common files\system\ado\msado20.tlb=
+
+[Package|AdEeL|Files In Project]
+H:\Noori Halal\Noori.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=No
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\MSDATREP.OCX=Yes
+C:\WINDOWS\system32\msadodc.ocx=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\MSHFLXGD.OCX=Yes
+C:\WINDOWS\system32\MSMAPI32.OCX=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\SYSINFO.OCX=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+H:\Noori Halal\DUAS.EXE=Yes
+H:\Noori Halal\Labels.xls=Yes
+H:\Noori Halal\DB.mdb=Yes
+C:\WINDOWS\system32\Crystl32.OCX=Yes
+C:\WINDOWS\system32\crpe32.dll=Yes
+C:\Program Files\Seagate Software\Viewers\ActiveXViewer\crviewer.dll=Yes
+
+[Package|AdEeL|Configure Registry Files]
+Applicable=No
+
+[Package|AdEeL|Configure Remote Servers]
+Applicable=No
+
+[Package|AdEeL|Install Locations]
+H:\Noori Halal\Noori.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSDATREP.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msadodc.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+H:\Noori Halal\DUAS.EXE=$(AppPath)
+H:\Noori Halal\Labels.xls=$(AppPath)
+H:\Noori Halal\DB.mdb=$(AppPath)
+C:\WINDOWS\system32\Crystl32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\crpe32.dll=$(WinSysPath)
+C:\Program Files\Seagate Software\Viewers\ActiveXViewer\crviewer.dll=$(WinSysPath)
+
+[Package|AdEeL|Configure Shared Files]
+Applicable=Yes
+H:\Noori Halal\Noori.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+H:\Noori Halal\DUAS.EXE=Yes
+H:\Noori Halal\Labels.xls=Yes
+H:\Noori Halal\DB.mdb=Yes
+
+[Package|AdEeL|Distribution]
+Type=single
+Size=
+Title=ORDER PROCESSIN SYSTEM
+
+[Package|AdEeL|Package]
+PackageFolder=H:\Noori Halal\Setup
+ProjectFolder=H:\Noori Halal
+ServerSideCab=
+File1=H:\Noori Halal\Setup\setup.exe
+File2=H:\Noori Halal\Setup\Setup.Lst
+File3=H:\Noori Halal\Setup\Noori.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|AdEeL|IconGroups]
+Group0=ORDER PROCESSIN SYSTEM
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|AdEeL|ORDER PROCESSIN SYSTEM]
+Icon1=Noori.exe
+Title1=ORDERS
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=DUAS.EXE
+Title2=Duas
+StartIn2=$(AppPath)
+Key2=Icon2
+Icon3=Labels.xls
+Title3=Labels
+StartIn3=$(AppPath)
+Key3=Icon3
